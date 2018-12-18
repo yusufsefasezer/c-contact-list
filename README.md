@@ -4,7 +4,7 @@ A simple contact list application developed with C.
 ## [Download](https://github.com/yusufsefasezer/c-contact-list/archive/master.zip)
 
 ## Screenshot
-![Windows](screen/windows.jpg)
+![Windows](screen/windows.JPG)
 ![Linux](screen/linux.png)
 
 
