@@ -24,8 +24,7 @@ int selection_menu(int min, int max)
     do
     {
         printf("Enter your choice: ");
-        scanf("%d", &choice);
-        fflush(stdin);
+        scanf("%d%*c", &choice);
     }
     while(choice < min || choice > max);
 
@@ -34,8 +33,8 @@ int selection_menu(int min, int max)
 
 void clear_screen()
 {
-    int x;
-    scanf("%2c", &x);
+    char x;
+    scanf("%c", &x);
     system("@cls||clear");
 }
 
