@@ -21,7 +21,7 @@ void add_contact(Array*);
 // Display
 void display_all(Array*);
 void display_contact(Contact*);
-void display_search();
+void display_search(Array *, char *, SEARCH_TYPE);
 
 // Search
 int search(Array*, char*, SEARCH_TYPE);
